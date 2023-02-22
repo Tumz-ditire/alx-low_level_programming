@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-
+#include <ctype.h>
 
 #ifndef MAIN_T
 #define MAIN_T
