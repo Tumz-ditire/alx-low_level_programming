@@ -9,7 +9,7 @@ int main(void)
 {
 	char c;
 
-	if (isalpha(c) == 0)
+	if (_isalpha(c) == 0)
 	{
 		return (0);
 	}
