@@ -1,24 +1,18 @@
 #include "main.h"
 
 /**
- * main - checks for alphabetic character.
+ * _isalpha - checks for alphabetic character.
  * @c: character to be checked
  * Return: 1 (Success)
  */
-int main(void)
+int _isalpha(int c)
 {
-	char c;
-
-	if (_isalpha(c) == 0)
+	if (c  >= 65 && c <=  122)
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
-
+		return (0);
 	}
-	
-	return (0);
-	
 }
