@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character.
+ * main - checks for alphabetic character.
  * @c: character to be checked
  * Return: 1 (Success)
  */
-int _isalpha(int c)
+int main(void)
 {
-	if (c >= 'A' && c <= 'Z')
+	char c;
+
+	if (isalpha(c) == 0)
 	{
-		return (1);
+		return (0);
 	}
-	else if (c >= 'A' && c <= 'Z')
+	else
 	{
 		return (1);
 
 	}
-	else
-	{
-		return (0);
-	}
+	
+	return (0);
+	
 }
