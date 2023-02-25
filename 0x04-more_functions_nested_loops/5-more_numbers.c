@@ -5,6 +5,17 @@
  *
  * Return: void
  */
+void print_most_numbers(void)
+{
+	int n;
+
+	for (n = 0; n <= 9; n++)
+	{
+		_putchar(n);
+	}
+	_putchar('\n');
+}
+
 void more_numbers(void)
 {
 	int i; 
@@ -12,7 +23,7 @@ void more_numbers(void)
 
 	for (i = 1; i <= 10; i++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (j = 10; j <= 14; j++)
 		{
 			if (j / 10 > 0 )
 			{
@@ -22,5 +33,4 @@ void more_numbers(void)
 		}	
 	_putchar('\n');
 	}
-	
 }
