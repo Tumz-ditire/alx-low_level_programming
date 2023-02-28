@@ -20,12 +20,12 @@ void rev_string(char *s)
 		s--;
 	}
 
-	for (q = 0; q < (count / 2); q++)	
-	{	
+	for (q = 0; q < (count / 2); q++)
+	{
 		int last = count - 1;
 
 		last_char = s[last - q];
 		s[last - q] = s[q];
 		s[q] = last_char;
-        }
+	}
 }
