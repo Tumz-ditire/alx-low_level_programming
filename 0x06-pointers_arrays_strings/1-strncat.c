@@ -5,6 +5,7 @@
  * use at most n bytes from src.
  * @dest: input variable
  * @src: input variable
+ * @n: input variable
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
